@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff"
+    android:orientation="vertical"
+    android:padding="15.0dip">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:text="确认制作此订单？"
+            android:textColor="#ffff0000"
+            android:textSize="20.0sp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="0.100000024dip"
+        android:layout_marginTop="5.0dip"
+        android:background="#ff999999" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@id/content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10.0dip"
+            android:text="请仔细查看订单信息，确认后务必按照平台规定完成此订单。"
+            android:textSize="15.0sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5.0dip"
+        android:layout_marginTop="5.0dip"
+        android:gravity="center_vertical"
+        android:paddingRight="5.0dip">
+
+        <TextView
+            android:id="@id/sure"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5.0dip"
+            android:layout_weight="1.0"
+            android:background="@anim/orashape"
+            android:gravity="center"
+            android:paddingBottom="5.0dip"
+            android:paddingTop="5.0dip"
+            android:text="确认制作"
+            android:textColor="#ffffffff"
+            android:textSize="18.0sp" />
+
+        <TextView
+            android:id="@id/no"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0dip"
+            android:layout_weight="1.0"
+            android:background="@anim/garshape"
+            android:gravity="center"
+            android:paddingBottom="5.0dip"
+            android:paddingTop="5.0dip"
+            android:text="我再看看"
+            android:textColor="#ffffffff"
+            android:textSize="18.0sp" />
+    </LinearLayout>
+</LinearLayout>

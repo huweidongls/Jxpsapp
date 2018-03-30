@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffffff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="117.0dip"
+        android:background="#ffe2e2e2"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="116.0dip"
+            android:layout_weight="3.0"
+            android:background="#ffffffff"
+            android:gravity="center_vertical">
+
+            <LinearLayout
+                android:layout_width="96.0dip"
+                android:layout_height="96.0dip"
+                android:layout_margin="10.0dip"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:id="@id/shopimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="96.0dip"
+                android:layout_marginBottom="10.0dip"
+                android:layout_marginRight="3.0dip"
+                android:layout_marginTop="10.0dip"
+                android:layout_weight="1.0"
+                android:background="#ffffffff"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="40.0dip"
+                    android:layout_marginTop="10.0dip"
+                    android:layout_weight="1.0"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@id/shopname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:singleLine="true"
+                        android:text="我有一个很长很长的名字"
+                        android:textColor="#ff999999"
+                        android:textSize="20.0sp" />
+
+                    <TextView
+                        android:id="@id/opentype"
+                        android:layout_width="60.0dip"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="营业"
+                        android:textColor="#ffffffff" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="26.0dip"
+                    android:layout_weight="1.0"
+                    android:background="#ffffffff"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@id/juli"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:text="2.1Km"
+                        android:textColor="#ff999999" />
+
+                    <TextView
+                        android:id="@id/limitcost"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:text="起送3.0"
+                        android:textColor="#ff999999" />
+
+                    <TextView
+                        android:id="@id/sellcount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:text="10人"
+                        android:textColor="#ff999999" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

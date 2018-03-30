@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:id="@id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="282.0dip"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="45.0dip"
+            android:background="@drawable/barbg"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@id/title_bar_menu_btn"
+                android:layout_width="40.0dip"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/btnbar_back" />
+
+            <TextView
+                android:id="@id/title_bar_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:ellipsize="marquee"
+                android:gravity="center"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:paddingLeft="75.0dip"
+                android:paddingRight="75.0dip"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:text="订单统计"
+                android:textColor="#ffffffff"
+                android:textSize="22.0sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:layout_weight="3.0"
+            android:gravity="center_vertical">
+
+            <LinearLayout
+                android:id="@id/pscost"
+                android:layout_width="fill_parent"
+                android:layout_height="50.0dip"
+                android:layout_marginLeft="50.0dip"
+                android:layout_marginRight="50.0dip"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0"
+                    android:gravity="center_vertical"
+                    android:text="选择统计类型：" />
+
+                <TextView
+                    android:id="@id/pscostname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0"
+                    android:gravity="center"
+                    android:text="当天订单统计" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="80.0dip"
+            android:layout_weight="3.0"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@id/gototjlist"
+                android:layout_width="fill_parent"
+                android:layout_height="40.0dip"
+                android:layout_marginLeft="50.0dip"
+                android:layout_marginRight="50.0dip"
+                android:background="@color/hearbackground"
+                android:gravity="center"
+                android:text="提交查询"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

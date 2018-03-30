@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#C71521</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#ffffffff</color>
+    <color name="hearbackground">#ffff6e6e</color>
+    <color name="btnbkon">#fff9a3a2</color>
+    <color name="btnfont">#ffffffff</color>
+    <color name="normalbk">#ffeff0f0</color>
+    <color name="gray">#ff747474</color>
+    <color name="border">#ffe2e2e2</color>
+    <color name="blue">#ff9084f4</color>
+    <color name="heargray">#ffffc9c9</color>
+    <color name="blan">#ff3986f8</color>
+    <color name="baiduh">#ffff2e51</color>
+</resources>
